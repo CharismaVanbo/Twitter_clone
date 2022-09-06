@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-z$0ra4om835*a3_m*6+oka%40=7-8x0i-zqq%gqk&8_9n=w88+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'posts',
+    'cloudinary',
     
 ]
 
