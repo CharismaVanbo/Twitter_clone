@@ -1,0 +1,156 @@
+/*
+Common
+********************************************/
+
+/*
+Post
+********************************************/
+
+
+
+
+
+/* Common ***********************/
+
+html,
+body {
+  height: 100%;
+}
+
+.content {
+  max-width: 600px;
+  margin: 0 auto;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+/* post ************************/
+
+.post_form {
+  padding: 20px 17px;
+  border-bottom: 1px solid #ccc;
+}
+.post_form .tweet {
+  width: 20%;
+  color: white;
+  margin: 10px 31px 0px;
+  padding: 10px;
+  border-radius: 0.5rem;
+  border: 1px solid white;
+  background-color: #91dc5a;
+}
+
+.post_form .name {
+  width: 70%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: #e5f4d9;
+}
+
+.post_form textarea {
+  width: 70%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid white;
+  font-family: inherit;
+}
+
+
+
+.posts ul {
+  padding: 0;
+}
+
+.posts li {
+  position: relative;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  padding: 17px;
+  list-style: none;
+}
+
+.posts li .menu_icon {
+  width: 20px;
+  position: absolute;
+  right: 30px;
+  top: 18px;
+}
+
+.posts li .menu {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 15px;
+  border: 1px solid #ccc;
+  background-color: white;
+  padding: 10px 15px;
+  font-size: 13px;
+  border-radius: 3px;
+}
+
+.posts li .menu a {
+  text-decoration: none;
+}
+
+.posts li .logo {
+  flex-basis: 15%;
+}
+
+.logo img {
+  width: 60px;
+}
+.posts li .name_body {
+  flex-basis: 85%;
+}
+
+.posts li .name_body .name {
+  font-weight: bold;
+}
+
+.posts li .name_body .datetime {
+  color: gray;
+}
+
+@media screen and (max-width: 500px) {
+  .posts li .name_body .name {
+    font-size: 20px;
+  }
+}
+.header {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+.header img {
+  width: 70px;
+}
+form {
+  display: flex;
+}
+.abd {
+  margin-left: 5%;
+}
+.cancel {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 0.5rem;
+  border: 1px solid white;
+  background-color: black;
+}
+
+.update {
+  width: 17%;
+  color: white;
+  padding: 10px;
+  border-radius: 0.5rem;
+  border: 1px solid white;
+  background-color: #91dc5a;
+}
+img.image-post {
+  width: 100%;
+}
+img.like {
+  width: 20px;
+}
